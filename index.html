@@ -4,8 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Muse</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <!-- load CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
   <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
@@ -14,7 +22,6 @@
 
   <script>
     var renderPage = true;
-
     if (navigator.userAgent.indexOf('MSIE') !== -1
       || navigator.appVersion.indexOf('Trident/') > 0) {
       /* Microsoft Internet Explorer detected in. */
@@ -23,11 +30,9 @@
     }
   </script>
 <link rel="shortcut icon" href="img/icon.png">
-
 </head>
 
 <body>
-
   <!-- Loader -->
   <div id="loader-wrapper">
     <div id="loader"></div>
@@ -35,29 +40,28 @@
     <div class="loader-section section-right"></div>
   </div>
 
-  <div class="tm-main">
 
-    <div class="tm-welcome-section">
-      <div class="container tm-navbar-container">
-        <div class="row">
-          <div class="col-xl-12">
-            <nav class="navbar navbar-expand-sm">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a href="index.html" class="nav-link tm-nav-link tm-text-white active">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="about.html" class="nav-link tm-nav-link tm-text-white">About</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link tm-nav-link tm-text-white">Contact us</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center">
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><span>Muse</span></a></h1>
       </div>
+      <nav class="nav-menu ml-auto d-none d-lg-block">
+        
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+			    <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
+
+
+  <div class="tm-main">
+    <div class="tm-welcome-section">
       <div class="container text-center tm-welcome-container">
         <div class="tm-welcome">
           <i class="fas tm-fa-big fa-music tm-fa-mb-big"></i>
@@ -65,7 +69,6 @@
           <p class="tm-site-description">Music player</p>
         </div>
       </div>
-
     </div>
 
     <div class="container">
@@ -204,7 +207,21 @@
     </div> <!-- .container -->
 
   </div> <!-- .main -->
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
   <!-- load JS -->
   <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
   <script>
